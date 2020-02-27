@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "autovqc"
+version = "0.1.0"
+description = ""
+authors = ["Ken Nakanishi <ikyhn1.ken.n@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.17"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+toml = "^0.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
